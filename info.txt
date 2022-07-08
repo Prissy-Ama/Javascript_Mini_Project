@@ -1,0 +1,23 @@
+PROJECT INFORMATION
+
+Create a webpage that accepts user's details and returns the details on request. The details should be collected using 
+prompts and stored in an object. The details should be validated. The details collected should be username, phone number, 
+email, password, and confirm password. The details to be displayed on request should contain only username, phone number and email.
+
+VALIDATION
+.The username must be less than 10 and greater than 0
+.Phone numbers should be 11 digits
+.The email address should be correct
+.Password must be greater than 6
+.User must comfirm password. If password and comfirm password do not match, alert the user.
+
+
+
+UNDERSTANDING THE PROJECT AND WHAT IS NEEDED
+.We need to have a responsive and beautiful frontend
+.Probably 2 button to fill and request user details
+.Use of loops
+.Conditionals
+.Two main functions, one to get user details and another to display the user details
+.The object should be declared globally since both functions make use of it (The object is where we store the user's details)
+.Console to see errors
